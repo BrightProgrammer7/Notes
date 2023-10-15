@@ -1,0 +1,88 @@
+IT :
+
+cls
+sudo
+
+tracert google.com
+runas /user:admin cmd
+runas /profile /user:admin "c:\Program Files\Internet Explorer\explore.exe"
+
+robocopy likedTodo favorites
+
+ipconfig
+ipconfig /all
+ipconfig /all | findstr DNS
+ipconfig /flushdns
+ipconfig /release
+ipconfig /release "Wi-Fi"
+ipconfig /renew
+ipconfig /renew6
+ipconfig /displaydns | clip
+
+ping google.com
+ping bing.com -t
+
+net statistics server
+net statistics workstation
+
+nslookup wikipedia.org
+nslookup wikipedia.com 8.8.8.8
+nslookup -type=mx networkchuck.org
+nslookup -type=ptr wikipedia.org
+nslookup -type=txt wikipedia.org
+
+getmac /v
+
+powercfg /energy /output energy-report.html
+
+powercfg /batteryreport /duration 14
+powercfg /batteryreport /output battery-report.html
+
+assoc
+assoc .exe
+assoc .mp4=VLC.vlc0
+
+chkdsk
+chkdsk /f
+chkdsk /r
+
+sfc /scannow
+
+dism /Online /cleanup-image /checkhealth
+dism /Online /cleanup-image /scanhealth
+dism /Online /cleanup-image /restorehealth
+
+tasklist
+tasklist | findstr 
+taskkill /f /pid 4624
+
+netsh wlan show wlanreport
+netsh interface show interface
+netsh interface ip show address
+netsh interface ip show address | findstr "IP Address"
+netsh interface ip show dnsservers
+
+netsh advfirewall set allprofiles state off
+netsh advfirewall set allprofiles state on
+
+
+ping wikipedia.org
+ping -t wikipedia.org
+
+tracert wikipedia.org
+tracert -d wikipedia.org
+
+netstat
+netstat -af
+netstat -o
+netstat -e -t 5
+
+route print
+route add 192.168.40.0 mask 255.255.255.0 192.168.1.23
+route delete 192.168.40.0
+
+shutdown /r /fw /f /t 0
+
+net start
+net stop 'service'
+net start 'service'

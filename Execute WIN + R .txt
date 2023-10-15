@@ -1,0 +1,6 @@
+EXECUTE:
+
+cmd --> cmd.exe
+regidit --> register edit
+control --> control panel
+services.msc --> local services

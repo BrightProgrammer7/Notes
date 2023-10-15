@@ -1,0 +1,44 @@
+REACT / REDUX :
+
+npm i react
+
+npx create-react-app my-app
+cd my-app
+npm start
+
+npm view react version
+
+npm i redux
+npm i react-redux
+npm install @reduxjs/toolkit
+
+npx create-react-app my-app --template redux
+
+npm audit fix --force
+npm cache clean -f
+
+npm run build
+
+npm install
+npm outdated
+npm update
+
+npm install react react-dom prop-types
+yarn add react react-dom prop-types
+
+npm install -g react-devtools
+npx react-devtools
+<script src="http://localhost:8097"></script>
+<script src="http://192.168.56.1:8097"></script>
+
+
+node --trace-deprecation
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+CMD
+echo hello
+whoami
+
+pwd
+cd ..
+cd ../..
+cd D: || C:
+
+mkdir directory
+dir directory
+cd directory
+ls -la
+rmdir EmptyDir
+rm -rfv FullDir
+rmdir /s /q NotEmptyDir
+
+touch README.md
+echo 'First line' >> README.md
+cat README.md
+notepad README.md
+rm README.md
+
+runas /user:MY_DESKTOP\admin cmd
+Windo@2020

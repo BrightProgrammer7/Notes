@@ -1,0 +1,22 @@
+sqlplus -v
+sqlplus / as sysdba
+lsnrctl status
+
+sqlplus system
+sqlplus /nolog
+
+connect xe
+connect sys as sysdba
+alter user sys identified by password;
+
+select name from v$database;
+select open_mode from v$database;
+
+select * from tab;
+
+
+
+
+CREATE TABLE mytab ( colId int, colName varchar(255));
+INSERT INTO mytab VALUES (1, 'rowName');
+SELECT colId FROM mytab;

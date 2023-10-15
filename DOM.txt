@@ -1,0 +1,48 @@
+document.getElementsByTagName("h1")[0].style.color = "#ff0000";
+
+document.body.addEventListener('click', function () {
+     var myParent = document.getElementsByTagName("h1")[0]; 
+     var myImage = document.createElement("img");
+     myImage.src = 'https://thecatapi.com/api/images/get?format=src&type=gif';
+     myParent.appendChild(myImage);
+     myImage.style.marginLeft = "160px";
+});
+
+const canvas = document.getElementById('canvas');
+const ctx = canvas.getContext('2d');
+
+ctx.fillStyle = 'green';
+ctx.fillRect(10, 10, 150, 100);
+
+
+
+canvas.addEventListener('click', function(evt){
+    
+    if (evt.target.tagName === "TD") {
+       var grid = evt.target;
+      grid.style.backgroundColor = color;
+    }
+
+
+var tgt = e.target;
+    var cur = e.currentTarget;
+    if (tgt !== cur) {
+      tgt.style.backgroundColor = color;
+    }
+
+canvas.addEventListener('click', function(e){
+    var clr = color.value;
+    var grid = e.target;
+    grid.style.backgroundColor = clr;
+
+var wid = width.value;
+  var hei = height.value;   
+  makeGrid(wid, hei);
+
+
+var pixels = document.querySelectorAll('td');
+
+    // calls the ColorPixel function when any pixel area is clicked
+    for (var i = 0; i < pixels.length; i++) {
+        pixels[i].addEventListener('click', colorPixel, false);
+    }

@@ -1,0 +1,4 @@
+<div class="website-logo">
+            <img src="britom.png">
+            <span class="title">Bright Tomorrow</span>
+</div>

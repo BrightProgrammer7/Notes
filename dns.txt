@@ -1,0 +1,199 @@
+
+Configuration IP de Windows
+
+   Nom de l’hôte . . . . . . . . . . : MY_DESKTOP
+   Suffixe DNS principal . . . . . . : 
+   Type de noeud. . . . . . . . . .  : Hybride
+   Routage IP activé . . . . . . . . : Non
+   Proxy WINS activé . . . . . . . . : Non
+   Liste de recherche du suffixe DNS.: Home
+
+Carte Ethernet Ethernet :
+
+   Statut du média. . . . . . . . . . . . : Média déconnecté
+   Suffixe DNS propre à la connexion. . . : 
+   Description. . . . . . . . . . . . . . : Realtek PCIe FE Family Controller
+   Adresse physique . . . . . . . . . . . : 04-D4-C4-70-F6-BB
+   DHCP activé. . . . . . . . . . . . . . : Oui
+   Configuration automatique activée. . . : Oui
+
+Carte réseau sans fil Connexion au réseau local* 1 :
+
+   Statut du média. . . . . . . . . . . . : Média déconnecté
+   Suffixe DNS propre à la connexion. . . : 
+   Description. . . . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   Adresse physique . . . . . . . . . . . : 02-F4-8D-02-E1-F0
+   DHCP activé. . . . . . . . . . . . . . : Oui
+   Configuration automatique activée. . . : Oui
+
+Carte réseau sans fil Connexion au réseau local* 2 :
+
+   Statut du média. . . . . . . . . . . . : Média déconnecté
+   Suffixe DNS propre à la connexion. . . : 
+   Description. . . . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #2
+   Adresse physique . . . . . . . . . . . : 00-F4-8D-02-E1-F0
+   DHCP activé. . . . . . . . . . . . . . : Oui
+   Configuration automatique activée. . . : Oui
+
+Carte réseau sans fil Wi-Fi :
+
+   Suffixe DNS propre à la connexion. . . : Home
+   Description. . . . . . . . . . . . . . : Realtek RTL8723BE Wireless LAN 802.11n PCI-E NIC
+   Adresse physique . . . . . . . . . . . : 00-F4-8D-02-E1-F0
+   DHCP activé. . . . . . . . . . . . . . : Oui
+   Configuration automatique activée. . . : Oui
+   Adresse IPv6 de liaison locale. . . . .: fe80::2833:b759:3ab0:231%14(préféré) 
+   Adresse IPv4. . . . . . . . . . . . . .: 192.168.1.23(préféré) 
+   Masque de sous-réseau. . . . . . . . . : 255.255.255.0
+   Bail obtenu. . . . . . . . . . . . . . : mercredi 12 octobre 2022 01:35:24
+   Bail expirant. . . . . . . . . . . . . : jeudi 13 octobre 2022 01:35:24
+   Passerelle par défaut. . . . . . . . . : 192.168.1.1
+   Serveur DHCP . . . . . . . . . . . . . : 192.168.1.1
+   IAID DHCPv6 . . . . . . . . . . . : 151057549
+   DUID de client DHCPv6. . . . . . . . : 00-01-00-01-2A-C1-32-08-04-D4-C4-70-F6-BB
+   Serveurs DNS. . .  . . . . . . . . . . : 192.168.1.1
+   NetBIOS sur Tcpip. . . . . . . . . . . : Activé
+
+
+Configuration IP de Windows
+
+    match.adsrvr.org
+    ----------------------------------------
+    Nom d’enregistrement. : match.adsrvr.org
+    Type d’enregistrement : 1
+    Durée de vie  . . . . : 16324
+    Longueur de données . : 4
+    Section . . . . . . . : Réponse
+    Enregistrement (hôte) : 15.197.193.217
+
+
+    Nom d’enregistrement. : match.adsrvr.org
+    Type d’enregistrement : 1
+    Durée de vie  . . . . : 16324
+    Longueur de données . : 4
+    Section . . . . . . . : Réponse
+    Enregistrement (hôte) : 3.33.220.150
+
+
+    Nom d’enregistrement. : match.adsrvr.org
+    Type d’enregistrement : 1
+    Durée de vie  . . . . : 16324
+    Longueur de données . : 4
+    Section . . . . . . . : Réponse
+    Enregistrement (hôte) : 52.223.40.198
+
+
+    Nom d’enregistrement. : match.adsrvr.org
+    Type d’enregistrement : 1
+    Durée de vie  . . . . : 16324
+    Longueur de données . : 4
+    Section . . . . . . . : Réponse
+    Enregistrement (hôte) : 35.71.131.137
+
+
+    disqus.com
+    ----------------------------------------
+    Nom d’enregistrement. : disqus.com
+    Type d’enregistrement : 1
+    Durée de vie  . . . . : 1810
+    Longueur de données . : 4
+    Section . . . . . . . : Réponse
+    Enregistrement (hôte) : 151.101.128.134
+
+
+    Nom d’enregistrement. : disqus.com
+    Type d’enregistrement : 1
+    Durée de vie  . . . . : 1810
+    Longueur de données . : 4
+    Section . . . . . . . : Réponse
+    Enregistrement (hôte) : 151.101.64.134
+
+
+    Nom d’enregistrement. : disqus.com
+    Type d’enregistrement : 1
+    Durée de vie  . . . . : 1810
+    Longueur de données . : 4
+    Section . . . . . . . : Réponse
+    Enregistrement (hôte) : 151.101.192.134
+
+
+    Nom d’enregistrement. : disqus.com
+    Type d’enregistrement : 1
+    Durée de vie  . . . . : 1810
+    Longueur de données . : 4
+    Section . . . . . . . : Réponse
+    Enregistrement (hôte) : 151.101.0.134
+
+
+    fp-vp-nocache.azureedge.net
+    ----------------------------------------
+    Nom d’enregistrement. : fp-vp-nocache.azureedge.net
+    Type d’enregistrement : 5
+    Durée de vie  . . . . : 19
+    Longueur de données . : 8
+    Section . . . . . . . : Réponse
+    Enregistrement CNAME  : fp-vp-nocache.ec.azureedge.net
+
+
+    Nom d’enregistrement. : fp-vp-nocache.ec.azureedge.net
+    Type d’enregistrement : 5
+    Durée de vie  . . . . : 19
+    Longueur de données . : 8
+    Section . . . . . . . : Réponse
+    Enregistrement CNAME  : cs9.wpc.v0cdn.net
+
+
+    Nom d’enregistrement. : cs9.wpc.v0cdn.net
+    Type d’enregistrement : 1
+    Durée de vie  . . . . : 19
+    Longueur de données . : 4
+    Section . . . . . . . : Réponse
+    Enregistrement (hôte) : 152.199.19.161
+
+
+    pixel.wp.com
+    ----------------------------------------
+    Nom d’enregistrement. : pixel.wp.com
+    Type d’enregistrement : 1
+    Durée de vie  . . . . : 186
+    Longueur de données . : 4
+    Section . . . . . . . : Réponse
+    Enregistrement (hôte) : 192.0.76.3
+
+
+    ajax.aspnetcdn.com
+    ----------------------------------------
+    Nom d’enregistrement. : ajax.aspnetcdn.com
+    Type d’enregistrement : 5
+    Durée de vie  . . . . : 676
+    Longueur de données . : 8
+    Section . . . . . . . : Réponse
+    Enregistrement CNAME  : mscomajax.vo.msecnd.net
+
+
+    Nom d’enregistrement. : mscomajax.vo.msecnd.net
+    Type d’enregistrement : 5
+    Durée de vie  . . . . : 676
+    Longueur de données . : 8
+    Section . . . . . . . : Réponse
+    Enregistrement CNAME  : cs22.wpc.v0cdn.net
+
+
+    Nom d’enregistrement. : cs22.wpc.v0cdn.net
+    Type d’enregistrement : 1
+    Durée de vie  . . . . : 676
+    Longueur de données . : 4
+    Section . . . . . . . : Réponse
+    Enregistrement (hôte) : 152.199.19.160
+
+
+    a.nel.cloudflare.com
+    ----------------------------------------
+    Nom d’enregistrement. : a.nel.cloudflare.com
+    Type d’enregistrement : 1
+    Durée de vie  . . . . : 41271
+    Longueur de données . : 4
+    Section . . . . . . . : Réponse
+    Enregistrement (hôte) : 35.190.80.1
+
+

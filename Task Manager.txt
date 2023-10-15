@@ -1,0 +1,7 @@
+TASK MANAGER
+
+CTRL + ALT + DEL
+
+tasklist
+
+taskkill/im explorer.exe

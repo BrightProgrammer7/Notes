@@ -1,0 +1,66 @@
+Cisco CLI:
+
+Switch.
+Switch>enable 
+Switch#show mac-address-table
+Switch#configure terminal
+Switch(config)#interface FastEthernet0/1
+
+#
+#
+#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+int vlan 10
+ip addr 172.17.10.20 255.255.0.0
+no sh
+end
+
+int vlan 20
+ip addr 172.17.20.20 255.255.0.0
+no sh
+end
+
+int vlan 30
+ip addr 172.17.30.20 255.255.0.0
+no sh
+end
+
+
+int fa0/1
+switchport mode access
+switchport access vlan 10
+end
+
+copy running-conf startup-conf
+
+
+int fa0/4
+switch mode trunk
+switch trunk native vlan 99 
+end
+
+
+
+
+
+
+
+
+
+
+#

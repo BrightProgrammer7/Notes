@@ -1,0 +1,8 @@
+var = ;
+console.log();
+
+var ASCII_value = my_string.charCodeAt(i);
+word.charAt(i)
+word.charCodeAt(i)
+
+total.toFixed(2)

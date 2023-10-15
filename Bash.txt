@@ -1,0 +1,37 @@
+BASH
+
+start sh.exe
+start "" "%PROGRAMFILES%\Git\bin\sh.exe" --login
+"C:\Program Files\Git\bin\sh.exe" --login
+
+
+ > echo $USER = LOGNAME
+echo $UID
+echo $HOSTNAME
+echo $PWD
+echo $PATH
+echo $SHELL
+echo $RANDOM
+
+NAME=ABDELILAH
+echo $NAME
+export $NAME
+echo "Hello $NAME"
+
+AGE=20
+echo $AGE
+echo "$NAME, you are $AGE years old"
+
+echo $(( 1+1 ))
+echo $(($RANDOM % 10))
+
+nano getrichquick.sh
+$ echo "$NAME, you will became a millionare when you are  
+   $(( ( $RANDOM % 100 )+ $AGE )) years old"
+./getrichquick.sh
+
+echo -n Password: Windo@2020
+read -s Password
+  psswd
+echo $Password
+sleep 2

@@ -1,0 +1,10 @@
+192.168.1.0/24
+
+openssl rand -base64 32
+
+ipconfig /flushdns
+
+nslookup akhmim-server-p.ensajakhmim.com
+
+nslookup akhmim-client.ensajakhmim.com
+

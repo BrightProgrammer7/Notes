@@ -1,0 +1,75 @@
+rand 128  // non lisible 
+{ ╗‼╧≈ïpX$¡  ╤τΩë↓═K*B┬á}╤åw╖XùL∟▌òpZ╪ÿ╛╧.îÿo▀Xì+╖p»☻ÿ2⌠÷c÷▲f∟f▒¼W>σ.F→]♠n╨╬
+«Ç♂rp½╬∩Up▓ïH¶îQ5$▼£v╠╞
+ü├┬&"ûof¥ ┬Bz▲╔!¢│┼Y╦¥ }
+
+rand -base64 128  // coded string in base64
+{ n/R7NG6TgxYjIMTWwRCUsZB1TStyB1nVNsIA6qFiUW8OPAjt1/1hrhk6jLaSGFo/
+Xukp4HZwdh1/43FkntrESNuQIpO97ltemPXUgG5AqJOm5bcdm0rXFWadDgMXEfqQ
+Mg5EmbTkRl3JgFoWvc2Wwv+zVVO1oABS+sDVHvzXg00= }
+
+rand -hex 32 // coded string in hex
+{ c336d297a09714ae2af4c0c1a2e7066c1b0966f1071f607cec56d21029b5d3d8 }
+
+
+enc -base64 -in C:\Users\user\OneDrive\Documents\Cryptage\code.txt -out C:\Users\user\OneDrive\Documents\Cryptage\64.txt
+
+enc -a -in C:\Users\user\OneDrive\Documents\Cryptage\code.txt -out C:\Users\user\OneDrive\Documents\Cryptage\encode.enc
+
+enc -a -in C:\Users\user\OneDrive\Documents\Cryptage\encode.enc -out C:\Users\user\OneDrive\Documents\Cryptage\coded.txt
+
+enc -a -d -in C:\Users\user\OneDrive\Documents\Cryptage\encode.enc -out C:\Users\user\OneDrive\Documents\Cryptage\decode.txt
+
+
+enc -list
+
+enc -des3 -e -k akhmim -in C:\Users\user\OneDrive\Documents\Cryptage\code.txt -out C:\Users\user\OneDrive\Documents\Cryptage\chiffre.enc
+
+enc -des3 -e -a -k akhmim -in C:\Users\user\OneDrive\Documents\Cryptage\code.txt -out C:\Users\user\OneDrive\Documents\Cryptage\dechiffre.enc
+
+enc -des3 -d -k akhmim -in C:\Users\user\OneDrive\Documents\Cryptage\chiffre.enc -out C:\Users\user\OneDrive\Documents\Cryptage\crypte.txt
+
+enc -des3 -d -k akhmi -in C:\Users\user\OneDrive\Documents\Cryptage\chiffre.enc -out C:\Users\user\OneDrive\Documents\Cryptage\cryptee.txt
+
+enc -a -in C:\Users\user\OneDrive\Documents\Cryptage\chiffre.enc -out C:\Users\user\OneDrive\Documents\Cryptage\decrypte.txt
+
+enc -aes-256-ecb -e -a -k akhmi -in C:\Users\user\OneDrive\Documents\Cryptage\code.txt -out C:\Users\user\OneDrive\Documents\Cryptage\crypted.enc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+openssl version
+
+set OPENSSL_CONF=c:\OpenSSL-Win64\bin\openssl.cfg
+
+npm install --save-dev --openssl-bin=C:\Users\user
+
+./config
+
+git clone https://github.com/openssl/openssl.git
+
+
+
+
+
+
+
+

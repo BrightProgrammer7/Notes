@@ -1,0 +1,21 @@
+PowerShell
+
+
+Rename-Item -Path "test1.txt" -NewName "test2.txt"
+
+
+Get-ExecutionPolicy
+Get-ExecutionPolicy -List
+Get-ExecutionPolicy -Scope CurrentUser
+
+Set-ExecutionPolicy -ExecutionPolicy                   
+   <PolicyName> -Scope <scope>
+
+Set-ExecutionPolicy -ExecutionPolicy 
+    RemoteSigned -Scope CurrentUser
+
+Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope LocalMachine
+
+pwsh.exe -ExecutionPolicy AllSigned
+
+
